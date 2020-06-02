@@ -6,8 +6,7 @@ import CartDropDown from '../cart-dropdown/cart-dropdown.component';
 import { createStructuredSelector } from 'reselect';
 import { selectCurrentUser } from '../../redux/user/user.selector';
 import { selectCartHidden } from '../../redux/cart/cart.selectors';
- 
-import {auth } from '../firebase/firebase.utils';
+
 import CartIcon from '../cart-icon/cart-icon.component';
 
 import { HeaderContainer, LogoContainer, OptionsContainer, OptionLink } from './header.styles';
